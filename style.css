@@ -181,3 +181,26 @@ section {
     background: var(--green-bg);
     color: var(--green-text);
 }
+
+@media screen and (max-width: 768px) {
+    #score-container {
+        flex-direction: column;
+        height: 100%;
+    }
+    .result-card {
+        width: 100%;
+        
+        border-radius: 0;
+    }
+    .summary-card {
+        
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .summary-row {
+        width: 100%;
+    }
+    
+}
